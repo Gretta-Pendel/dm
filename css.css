@@ -20,6 +20,13 @@ hr {
   margin: 2rem 0;
 }
 
+pre {
+  font-family: "Courier New", Courier, monospace;
+  max-width: 100%;
+  display: inline;
+  white-space: pre-wrap;
+}
+
 header {
   grid-area: head;
   padding: 0 1rem;
@@ -68,7 +75,10 @@ nav ul {
 h1 {
   font-size: 1.5rem;
 }
-
+h1 a {
+  color: #efefef;
+  text-decoration: none;
+}
 .collapse {
   color: #666;
   cursor: pointer;
@@ -90,8 +100,16 @@ h1 {
   padding-bottom: 2rem;
   border-bottom: 1px dotted #333;
 }
+.firstrow {
+  font-size: smaller;
+}
 .firstrow span {
+  font-size: medium;
   display: block;
+}
+.firstrow img {
+  border: 1px solid #333;
+  max-width: 125px;
 }
 .dmtable tr:first-child td {
   padding-top: 0;
